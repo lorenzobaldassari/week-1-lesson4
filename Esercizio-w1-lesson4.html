@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Epicode-blog dei developers</title>
+
+    <link rel="stylesheet" href="Assets\css\reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="Assets\css\font-awesome.css" />
+    <link rel="stylesheet" href="Assets\css\style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="block blu">
+          <img
+            id="logo"
+            src="Assets\img\logo.svg"
+            alt="logo di epicode"
+            width="50%"
+          />
+          <h1>EPICODE - IL BLOG DEI DEVELOPERS</h1>
+          <br />
+          <nav>
+            <ul>
+              <li>
+                <i class="fas fa-long-arrow-alt-right"></i>HOME<i
+                  class="fas fa-long-arrow-alt-left"
+                ></i>
+              </li>
+              <li>
+                <i class="fas fa-long-arrow-alt-right"></i>ARTICOLI<i
+                  class="fas fa-long-arrow-alt-left"
+                ></i>
+              </li>
+              <li>
+                <i class="fas fa-long-arrow-alt-right"></i>LAVORA CON NOI<i
+                  class="fas fa-long-arrow-alt-left"
+                ></i>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <div class="block white">
+          <h2>Come creare un template per i post</h2>
+          <p>
+            La prima cosa da farw e` suddividere in blocchi logici la pagina
+            identificando le <span class="1">parti comuni</span> da applicare a
+            tutte le pagine> <br /><br />
+            Le varie pagine saranno quinid suddivise in
+          </p>
+          <ul>
+            <li>
+              Contenuti di intestazione del tag
+              <span class="greycube">&lt;header&gt;</span>
+            </li>
+            <li>
+              Contenuti centrali variabili del tag
+              <span class="greycube">&lt;main&gt;</span>
+            </li>
+            <li>
+              Contenuti di fine pagina comnuni del tag
+              <span class="greycube">&lt;footer&gt;</span>
+            </li>
+          </ul>
+          <p>
+            formattazione del codice il testo dell`articolo dovra` essere
+            formattatato per identificare tutte le parti da
+            <span class="abba"> selezionare con i CSS</span>. Perico`i passi
+            saranno:
+          </p>
+          <ol>
+            <li>
+              Progettare su carta il markup finale, assegnando ad ogni specifico
+              testo il tag appropriato
+            </li>
+            <li>
+              Scrivere l`HTML dai tag esteri a quelli interni e dall`alto verso
+              il basso
+            </li>
+            <li>Applicare gli stili CSS</li>
+          </ol>
+          <p>
+            l`applicazione di stili CSS e` crescita negli anni fino a
+            raggiungere la diffusione pressoche` totale
+          </p>
+          <table>
+            <caption class="corsivogr">
+              Diffusione dei CSS
+            </caption>
+            <thead>
+              <div id="tableblu">
+                <tr>
+                  <th>Anno</th>
+                  <th>%di utilizzo</th>
+                  <th>Supporto Browsers</th>
+                </tr>
+              </div>
+            </thead>
+            <tr>
+              <td>2000</td>
+              <td>20%</td>
+              <td>17%</td>
+            </tr>
+            <tr class="tabgrey">
+              <td>2002</td>
+              <td>35%</td>
+              <td>22%</td>
+            </tr>
+            <tr>
+              <td>2004</td>
+              <td>45%</td>
+              <td>42%</td>
+            </tr>
+            <tr class="tabgrey">
+              <td>2008</td>
+              <td>80%</td>
+              <td>51%</td>
+            </tr>
+            <tr>
+              <td>2012</td>
+              <td>100%</td>
+              <td>76%</td>
+            </tr>
+          </table>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            animi incidunt ipsam
+            <a
+              href="https://www.google.com/search?q=google+font&rlz=1C1VDKB_itIT1041IT1044&oq=&aqs=chrome.0.69i59j46i131i199i433i465i512j0i131i433i512j69i59j69i65j69i60l2j69i65.618j0j9&sourceid=chrome&ie=UTF-8"
+              >tool online
+            </a>
+            reprehenderit voluptatem nam facere non labore quia totam.
+            Voluptatum quia et neque quas veritatis sint sapiente vel
+            asperiores.
+          </p>
+          <iframe
+            width="100%"
+            src="https://www.youtube.com/embed/aBSZVeBRvDY"
+            title="Il lavoro PIÙ RICHIESTO del 2023: il Web Developer 🔥"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <div id="majin">
+            <h6>NOVITA`</h6>
+            <p>
+              vuoi rimanere aggiornato su altre novita` del blog? iscrivi alla
+              newsletter
+            </p>
+            <form>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="inserisci la tua email"
+              />
+              <input id="button" type="submit" value="iscriviti" />
+            </form>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <h6>ARTICOLI CORRELATI</h6>
+        <div class="greybox">
+          <a href="">Validare il codice HTML</a>
+          <p>categoria:develop</p>
+          <p>data 18/9/23</p>
+        </div>
+        <div class="greybox">
+          <a href="">Validare il codice HTML</a>
+          <p>categoria:develop</p>
+          <p>data 18/9/23</p>
+        </div>
+        <div class="greybox">
+          <a href="">Validare il codice HTML</a>
+          <p>categoria:develop</p>
+          <p class="data">data 18/9/23</p>
+        </div>
+        <div class="bluebox">
+          <h6>anfcjanfvj</h6>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
+            perspiciatis! Ullam sequi excepturi ipsam ex exercitationem, aperiam
+            f
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
